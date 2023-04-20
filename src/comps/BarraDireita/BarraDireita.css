@@ -1,0 +1,11 @@
+.BarraDireita {
+    background: #FFFFFF;
+    width: 15vw;
+    border: 1px solid #dbdbdb;
+  }
+
+  .eu{
+    height: 56px;
+    width: 56px;
+    border-radius: 100%;
+  }

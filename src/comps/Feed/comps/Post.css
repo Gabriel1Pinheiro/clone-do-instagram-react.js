@@ -1,0 +1,123 @@
+.Post {
+    width: 468px;
+    min-height: 555px;
+    display: block;
+    background: #FFFFFF;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin: 15px 0;
+}
+
+.imgAutor {
+    display: flex;
+    align-items: center;
+}
+
+.Cabecalho_Post {
+    height: 42px;
+    display: flex;
+    align-items: center;
+}
+
+.icon_direita {
+    align-items: center;
+    margin-left: auto;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+
+
+.imgAutor img {
+    background: blue;
+    border-radius: 50%;
+    max-height: 32px;
+    max-width: 32px;
+    margin: 1px 9px;
+}
+
+
+.Conteudo_Post {
+    width: 468px;
+    height: 538px;
+    display: block;
+    background: #EFEFEF;
+}
+
+.Conteudo_Post img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.footer-post {
+    padding: 10px 25px;
+}
+
+
+.engajamento-post {
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.engajamento-post .icons-1 {
+    display: flex;
+    gap: 16px;
+}
+
+.icon {
+    cursor: pointer;
+}
+
+.like {
+    margin-top: 6px;
+}
+
+.like span {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.legenda {
+    margin: 6px 0 3px;
+}
+
+.legenda p strong {
+    font-weight: 500;
+}
+
+.tempo {
+    font-size: 11px;
+    color: #262626;
+}
+
+.comentario {
+    border-top: 1px solid #efefef;
+    margin-top: 8px;
+
+    display: flex;
+}
+
+.fake_comentario {
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 16px;
+
+}
+
+.fake_comentario input {
+    font-size: 16px;
+    
+}
+
+.comentario .btn {
+    cursor: pointer;
+    font-weight: 500;
+    color: #75c0f1;
+    display: flex;
+   align-items: center;
+   font-size: 16px ;
+}
