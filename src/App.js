@@ -7,21 +7,22 @@ import Stories from './comps/Stories/Stories';
 import Feed from './comps/Feed/Feed';
 
 export default function App(props) {
- 
+
   return (
-    // 1 - Não ignora os pequenos erros
-    // 2 - Algumas palavras são diferentes. 
-    // 3 - Permite o uso de variaveias 
-    <div className="corpo">
+    <>
       <BarraEsquerda />
-      <div className='conteudo-central'>
-        <Stories />
-        <Feed />
+
+      <div className="corpo">
+        <div className='conteudo-central'>
+          <Stories />
+          <Feed />
+        </div>
       </div>
+
       <BarraDireita />
-    </div>
-    
+
+    </>
   )
 }
 
-//export default App
+// export default App

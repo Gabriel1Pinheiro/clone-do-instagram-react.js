@@ -1,0 +1,28 @@
+.main-container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    column-gap: 10px;
+}
+
+.container-text {
+    display: grid;
+}
+
+.follow {
+    color: blue;
+    margin-left: auto;
+}
+
+.foto-do-usuario {
+    border-radius: 50%;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.text-container > * {
+    font-size: 8px;
+}

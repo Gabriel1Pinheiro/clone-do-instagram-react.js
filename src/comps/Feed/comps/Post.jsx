@@ -1,4 +1,5 @@
 import "./Post.css";
+import {useState} from "react";
 
 import { FiHeart } from 'react-icons/fi';
 import { TbMessageCircle2 } from 'react-icons/tb';
@@ -8,6 +9,13 @@ import { FiMoreHorizontal } from 'react-icons/fi';
 
 
 export default function Post(props) {
+  const [like, setLike] = useState(false);
+
+  function handleLike() {
+    setLike(!like);
+    console.log(like);
+  }
+
   return (
     <div className="Post">
       <div className="Cabecalho_Post">
@@ -26,7 +34,7 @@ export default function Post(props) {
 
           <div className="icons-1">
 
-            <div className="icon"><FiHeart size={25} /></div>
+            <div onClick={handleLike} className="icon"><FiHeart fill={like ? "red" : "white"} size={25} /></div>
             <div className="icon">< TbMessageCircle2 size={25} /></div>
             <div className="icon"><SlPaperPlane size={25} /></div>
           </div>
