@@ -33,6 +33,11 @@
   cursor: pointer;
 }
 
+span:hover{
+  background-color: #dbdbdb;
+  border-radius: 50px;
+}
+
 .eu img{
   height: 30px;
   width: 30px;
